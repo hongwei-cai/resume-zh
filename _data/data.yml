@@ -8,24 +8,24 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
+  name: 蔡宏威
   tagline: Full Stack Developer
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
+  email: 13234005487@163.com
+  phone: +86 13234005487
   timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  website: https://hongweicai.com/ # Include the full website URL, including "http://" or "https://".
+  linkedin: hongwei-cai
+  xing: 
+  github: hongwei-cai
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
+  bluesky: #'@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  twitter: #'@jekyllrb'
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -37,29 +37,32 @@ sidebar:
   languages:
     title: Languages
     info:
-    - idiom: English
-      level: Native
+    - idiom: 英语
+      level: 专业级熟练
 
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
+    - idiom: 中文
+      level: 母语级
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: 健身
       link:
 
-
-    - item: Snowboarding
+    - item: 阅读
       link:
 
-
-    - item: Cooking
+    - item: 游泳
       link:
 
+    - item: 网球
+      link:
+
+    - item: 钢琴
+      link:
+
+    - item: 音乐创作
+      link:
 
 career-profile:
   title: Career Profile
@@ -73,9 +76,9 @@ career-profile:
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: 计算机科学硕士
+    university: 爱荷华大学(美国)
+    time: 2023 - 2025
     details: |
       Describe your study here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -84,58 +87,47 @@ education:
       pretium quis, sem.
         - Bullet point
         - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+  - degree: 哲学博士
+    university: 爱荷华大学(美国)
+    time: 2016 - 2023
+
+  - degree: 艺术硕士
+    university: 俄克拉荷马城市大学(美国)
+    time: 2013 - 2015
+
+  - degree: 作曲与作曲技术理论学士
+    university: 沈阳音乐学院
+    time: 2008 - 2012
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    - role: 研究生助教
+      time: 2023.01 - 2025.05
+      company: 爱荷华大学, 美国
+      details: |
+        授课课程：
+        - CS:4420 人工智能(2025年春季)
+        - CS:2230 数据结构(2024年秋季)
+        - CS:3820 编程语言原理(2024年春季、2024年秋季)
+        - CS:2630 计算机组成原理(2023年春季)
+
+        主要职责：
+        - 负责作业、考试和项目的批改工作，并提供建设性反馈以促进学生学业进步
+        - 定期开展答疑时间、实验课和专题讨论，帮助学生深入理解课程内容
+        - 辅助教授Java、C、Haskell、Agda、Bash及汇编语言等编程工具的教学
+        - 与其他助教及授课教师协同合作，及时解决学生问题并优化课程实施效果
+
+    - role: Commerce Integration Platform 软件工程实习生
+      time: 2024.05 - 2024.08
+      company: Casey's General Store, 美国
+      details: |
+        熟悉敏捷开发方法论并积极参与Scrum会议, 在整个软件开发生命周期(SDLC)中培养了高效沟通能力并促进团队协作
+        关键贡献:
+          - 通过独立负责商务集成平台所有应用程序升级至.NET 8的技术债务项目(需在2024年11月.NET 6终止支持前完成), 获得CI/CD和DevOps实践的一手经验
+          - 参与多项IT基础工作: 通过ServiceNow提交工单停用废弃应用程序、记录服务器漏洞、移除EWS防火墙规则
+          - 通过在市场数据团队、平台工程团队和数据科学团队的岗位轮岗，深入接触数据驱动决策机制与高级数据战略
+          - 借调至网络安全部门的红队演练、数据保障和网络情报小组, 强化对渗透测试和数据防泄漏(DLP)技术的理解
 
 certifications:
   title: Certifications
