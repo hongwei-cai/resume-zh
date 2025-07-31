@@ -1,5 +1,6 @@
 function print() {
-  const printWindow = window.open("/print", "_blank");
+  const baseUrl = window.siteBaseUrl || "";
+  const printWindow = window.open(baseUrl + "/print", "_blank");
   printWindow.onload = function () {
     printWindow.print();
     // Close the print window after a delay
@@ -8,8 +9,9 @@ function print() {
 }
 
 function generatePDF() {
+  const baseUrl = window.siteBaseUrl || "";
   // Get the print layout URL
-  const printURL = window.location.origin + "/print";
+  const printURL = window.location.origin + baseUrl + "/print";
 
   // Fetch the print layout content
   fetch(printURL)

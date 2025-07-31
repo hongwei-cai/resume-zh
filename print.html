@@ -3,6 +3,43 @@ layout: print
 permalink: /print
 ---
 
+<style>
+  /* Force desktop layout for printing */
+  .wrapper {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  
+  .sidebar-wrapper {
+    width: 280px !important;
+    position: static !important;
+    float: left !important;
+  }
+  
+  .main-wrapper {
+    width: calc(100% - 280px) !important;
+    margin-left: 0 !important;
+    float: right !important;
+  }
+  
+  /* Ensure desktop layout is used when printing */
+  @media (max-width: 767px) {
+    .wrapper {
+      display: flex !important;
+      flex-direction: row !important;
+    }
+    
+    .sidebar-wrapper {
+      width: 280px !important;
+      position: static !important;
+    }
+    
+    .main-wrapper {
+      width: calc(100% - 280px) !important;
+      margin-left: 0 !important;
+    }
+  }
+</style>
 
 {% include career-profile.html %}
 
