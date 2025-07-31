@@ -58,4 +58,42 @@
     .d-print-none {
         display: none !important;
     }
+  
+  /* Force desktop layout for printing */
+  .wrapper {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  
+  .sidebar-wrapper {
+    width: 280px !important;
+    position: static !important;
+    float: left !important;
+    display: block !important;
+  }
+  
+  .main-wrapper {
+    width: calc(100% - 280px) !important;
+    margin-left: 0 !important;
+    float: right !important;
+  }
+  
+  /* Ensure desktop layout is used when printing */
+  @media (max-width: 767px) {
+    .wrapper {
+      display: flex !important;
+      flex-direction: row !important;
+    }
+    
+    .sidebar-wrapper {
+      width: 280px !important;
+      position: static !important;
+      float: left !important;
+    }
+    
+    .main-wrapper {
+      width: calc(100% - 280px) !important;
+      margin-left: 0 !important;
+    }
+  }
 }
