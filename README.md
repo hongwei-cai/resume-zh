@@ -1,6 +1,6 @@
-# Resume
+# CV
 
-This resume is based on the **Orbit** theme designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
+This CV is based on the **Orbit** theme designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
 
 Jekyll theme implementation by [sharu725](https://github.com/sharu725/online-cv).
 
