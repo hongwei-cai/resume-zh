@@ -9,13 +9,13 @@ sidebar:
 
   # Profile information
   name: 蔡宏威
-  tagline: 全栈开发人员
+  tagline: 全栈开发者
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: h.vincent.cai@gmail.com
   phone: +86 13234005487
-  timezone: Asia/Beijing # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  timezone: Asia/Shanghai # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship: 中国
   website: https://hongweicai.com/ # Include the full website URL, including "http://" or "https://".
   linkedin: hongwei-cai
@@ -31,28 +31,44 @@ sidebar:
   goodreads: # Number-Username, e.g. 123456-alandoe
   mastodon: # Please include your full Mastodon link here.
   hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
+  leetcode: PrimusPilus # Please provide your LeetCode username.
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   honors:
     title: 荣誉奖项
     info:
-    - item: Marcus Bach研究生奖学金
-      link:
-    - item: 博士论文奖 (2023年 | 爱荷华大学)
-    - item: 研究生院暑期研究奖学金 (2021年 | 爱荷华大学)
-    - item: Henry and Parker Pelzer奖学金 (2次获奖 | 2017年 & 2019年 | 年度作曲家)
-    - item: 研究生音乐人才奖学金 (连续2年 | 2013年 & 2014年 | 俄克拉荷马城市大学)
-    - item: 双年度钢琴副科比赛一等奖 (2010年 | 沈阳音乐学院)
-    - item: 沈阳音乐学院优秀学生奖学金 (连续3年 2009 - 2011 | 沈阳音乐学院)
+      - title: Marcus Bach研究生博士论文奖学金
+        link: https://clas.uiowa.edu/academics/graduate-education/funding/marcus-bach-graduate-fellowships
+        organization: 爱荷华大学
+        time: 2023
 
-  strength:
+      - title: 研究生院暑期研究奖学金
+        organization: 爱荷华大学
+        time: 2021
+
+      - title: Henry and Parker Pelzer奖学金 (2次获年度作曲家)
+        organization: 爱荷华大学
+        time: 2017 & 2019
+
+      - title: 研究生音乐人才奖学金
+        organization: 俄克拉荷马城市大学
+        time: 2013 & 2014
+
+      - title: 双年度钢琴副科比赛一等奖
+        organization: 沈阳音乐学院
+        time: 2010
+      
+      - title: 沈阳音乐学院优秀学生奖学金
+        organization: 沈阳音乐学院
+        time: 2009 - 2011
+
+  strengths:
     title: 核心优势
     info:
-      - item: 机器学习与深度学习专业技能
+      - item: 机器学习与AI算法实现
+      - item: 医学影像分析专业技能
       - item: 跨学科问题解决能力
-      - item: 团队协作与技术指导经验
-      - item: 快速学习新技术的能力
+      - item: 团队协作与技术指导
 
   languages:
     title: 语言
@@ -64,125 +80,71 @@ sidebar:
       level: 母语级
 
   interests:
-    title: 兴趣
+    title: 兴趣爱好
     info:
     - item: 健身
-      link:
-
-    - item: 阅读
-      link:
-
     - item: 游泳
-      link:
-
-    - item: 网球
-      link:
-
-    - item: 钢琴
-      link:
-
-    - item: 音乐创作
-      link:
+    - item: 阅读
+    - item: 钢琴演奏
 
 career-profile:
   title: 职业概况
   summary: |
-    拥有扎实计算机科学背景的全栈开发者，毕业于美国爱荷华大学获计算机科学硕士学位（GPA 3.74/4.00）。
-    具备丰富的机器学习、人工智能和软件开发经验，曾在Casey's General Store担任软件工程师实习生，
-    成功完成.NET 8技术债务项目并获得CI/CD和DevOps实践经验。
+    计算机科学硕士毕业生，专注于机器学习和人工智能领域。在爱荷华大学获得计算机科学硕士学位（GPA 3.74/4.00），具备扎实的理论基础和丰富的实践经验。
 
-    专精于Python、机器学习算法、医学影像分析和深度学习技术。独立完成多个AI项目，包括基于nnU-Net的
-    主动脉瓣关闭不全诊断系统、自动语音识别系统和基于CycleGAN的MRI合成项目。具备出色的团队协作能力
-    和问题解决技能，曾担任多门核心课程的研究生助教，在教学和技术指导方面表现优异。
+    曾在Casey's Store Support Center担任软件工程师实习生，独立完成.NET 8技术债务项目，熟练运用Agile、CI/CD和DevOps实践。专精Python、机器学习算法、医学影像分析和深度学习技术，完成多个AI项目包括基于nnU-Net的医学影像诊断系统、自动语音识别系统等。
 
-    寻求在人工智能、机器学习或数据分析领域的全职机会，致力于运用技术创新解决实际问题。
+    担任多门核心课程研究生助教，具备优秀的团队协作和技术指导能力。寻求机器学习工程师或数据科学家职位，致力于将AI技术应用于解决实际问题。
+
 education:
   title: 教育经历
   info:
   - degree: 计算机科学硕士
     university: 爱荷华大学（美国）
     time: 2023 - 2025
-    link: https://registrar.uiowa.edu/credential-validation
-    CeDiD: "242NOUTOHVI5 and Name: HO"
     details: |
-      核心课程：
-      机器学习 | 应用机器学习 | 优化算法
-      人工智能 | 机器学习数学基础 | 人机交互
-      计算理论 | 操作系统 | 数据库系统
-      算法设计与实现 | 生物医学系统与算法设计
-        - 全额奖学金和助教职位
-        - GPA: 3.74/4.00
+      核心课程：机器学习、人工智能、算法设计、数据库系统、操作系统
+      - 全额奖学金获得者
+      - GPA: 3.74/4.00
+      - 研究生助教
 
-  - degree: 哲学博士
+  - degree: 哲学博士（音乐）
     university: 爱荷华大学（美国）
     time: 2016 - 2023
-    link: https://registrar.uiowa.edu/credential-validation
-    CeDiD: "25XH3FG9HDIG and Name: HO"
 
   - degree: 艺术硕士
     university: 俄克拉荷马城市大学（美国）
     time: 2013 - 2015
 
-  - degree: 作曲与作曲技术理论学士
+  - degree: 作曲学士
     university: 沈阳音乐学院
     time: 2008 - 2012
 
 experiences:
   title: 工作经历
   info:
+    - role: 软件工程师（实习）
+      time: 2024.05 - 2024.08
+      company: Casey's Store Support Center, 美国
+      details: |
+        - 独立完成商务整合平台12个应用程序的.NET 8升级项目
+        - 熟练运用Agile开发方法论，积极参与Scrum会议和软件开发生命周期
+        - 使用Postman进行REST API端到端测试，通过ServiceNow管理IT工单
+        - 参与网络安全团队的渗透测试和数据防泄漏（DLP）技术实践
+        - 接触数据驱动决策机制与企业级数据战略
+
     - role: 研究生助教
       time: 2023.01 - 2025.05
-      company: 爱荷华大学, 美国
+      company: 爱荷华大学计算机科学系
       details: |
-        授课课程：
-        - CS:4420 人工智能（2025年春季）
-        - CS:2230 数据结构（2024年秋季）
-        - CS:3820 编程语言原理（2024年春季、2024年秋季）
-        - CS:2630 计算机组成原理（2023年春季）
-
-        主要职责：
-        - 辅助教授图算法、机器学习、神经网络、巩固学习等人工智能相关知识
-        - 辅助教授数据结构、Java、C、Haskell、Agda、Bash及汇编语言等编程工具的教学
-        - 负责作业、考试和项目的批改工作，并提供建设性反馈以促进学生学业进步
-        - 定期开展答疑时间、实验课和专题讨论，帮助学生深入理解课程内容
-        - 与其他助教及授课教师协同合作，及时解决学生问题并优化课程实施效果
-
-    - role: 商务整合平台软件工程师（实习）
-      time: 2024.05 - 2024.08
-      company: Casey's General Store, 美国
-      details: |
-        熟悉敏捷开发方法论并积极参与Scrum会议, 在整个软件开发生命周期（SDLC）中培养了高效沟通能力并促进团队协作
-
-        关键贡献:
-          - 通过独立负责商务整合平台所有应用程序升级至.NET 8的技术债务项目（需在2024年11月.NET 6终止支持前完成）, 获得CI/CD和DevOps实践的一手经验
-          - 参与多项IT基础工作: 通过ServiceNow提交工单停用废弃应用程序、记录服务器漏洞、移除EWS防火墙规则
-          - 通过在市场数据团队、平台工程团队和数据科学团队的岗位轮岗，深入接触数据驱动决策机制与高级数据战略
-          - 借调至网络安全部门的红队演练、数据保障和网络情报小组, 强化对渗透测试和数据防泄漏（DLP）技术的理解
+        - 协助教授人工智能、数据结构、编程语言原理等核心课程
+        - 指导学生掌握Java、C、Python、Haskell等编程语言
+        - 负责作业批改、答疑辅导和实验课教学
+        - 协助课程优化，提升教学质量
 
 # certifications:
 #   title: Certifications
 #   list:
-#   - name: CV Builder
-#     start: 2020
-#     end: 2021
-#     organization: Microsoft
-#     credentialid: 111-222
-#     credentialurl: www.google.com
-#     credentialname: Google
-#     details: |
-#       Details about cert. Lorem ipsum dolor sit amet, consectetur
-#       adipiscing elit.
-#       Nullam eget orci purus. Nullam ultrices neque nibh.
-#       Aenean fermentum, felis vulputate suscipit accumsan,
-#       sem enim bibendum augue, sed convallis arcu lacus at dui.
-#       Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-#       Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-#       Praesent venenatis erat non augue suscipit consectetur.
-
-#       Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-#       fringilla vel. Ut euismod, sem sed vulputate venenatis,
-#       justo diam viverra velit, sed rhoncus leo leo eu justo.
-#       Suspendisse placerat risus ante, sed porta nisi blandit at.
 #   - name: Git learning
 #     start: 2019
 #     end:
@@ -201,7 +163,7 @@ experiences:
 #       Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-  title: 项目经验
+  title: 项目
   intro: >
     以下是我曾经独立完成或参与过的研究项目
   assignments:
@@ -226,7 +188,7 @@ projects:
       通过降维技术和结构比对算法预测蛋白质功能，构建蛋白质相似性矩阵并聚类分析，验证基因本体（GO）注释的准确性，优化模型以提高预测性能。技术栈：Python、PDB、GO、FATCAT、DALI、Unknome、PCA、MDS
 
   - title: 基于EDSR的图像超分辨率增强
-    link: "https://github.com/hongwei-cai/Pixel-Perfect"
+    link: "#"
     tagline: |
       复现增强深度超分辨率（EDSR）模型，采用模块化残差块结构提升单尺度图像分辨率，对比传统方法（如SRCNN、SRResNet）显著改善细节还原能力。技术栈：PyTorch、EDSR架构、残差学习
 
@@ -260,9 +222,9 @@ recommendations:
   - person: Dean Rottinghaus
     email: dean.rottinghaus@caseys.com
     # phone: 
-    role: 软件工程经理
+    role: Casey's 软件工程经理
     recommendation:
-      “宏威在Casey’s General Store的实习期间展现了卓越的技术能力和团队协作精神。通过他的努力，我们成功地完成了.NET 8的技术债务项目任务，并提升了平台的稳定性和性能。”
+      “宏威在Casey’s Store Support Center 的实习期间展现了卓越的技术能力和团队协作精神。通过他的努力，我们成功地完成了.NET 8的技术债务项目任务，并提升了平台的稳定性和性能。”
 
   - person: Sami Damanhoury
     email: sami.damanhoury@caseys.com
@@ -272,25 +234,26 @@ recommendations:
       “宏威是一个工作非常认真勤恳和好相处的人。他学习能力出众，并总是保持谦虚谨慎的工作态度。”
 
 skills:
-  title: 技能 &amp; 专业
+  title: 技能专长
   toolset:
   - name: Python &amp; 机器学习
     level: 90%
-  
-  - name: PyTorch &amp; TensorFlow
+
+  - name: 深度学习 (PyTorch, TensorFlow)
     level: 85%
-    
+
+  - name: 数据分析 (Pandas, NumPy)
+    level: 85%
+
+  - name: CI/CD &amp; DevOps
+    level: 80%
+
   - name: 医学影像处理 (ITK, OpenCV)
     level: 80%
     
-  - name: C#/.NET &amp; Azure DevOps
+  - name: C#/.NET & Azure
     level: 75%
-    
-  - name: 数据分析 (Pandas, NumPy)
-    level: 90%
-    
-  - name: 云计算 (Azure, HPC)
-    level: 70%
+
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

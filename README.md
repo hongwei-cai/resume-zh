@@ -4,6 +4,8 @@ This resume is based on the **Orbit** theme designed by Xiaoying Riley at [3rd W
 
 Jekyll theme implementation by [sharu725](https://github.com/sharu725/online-cv).
 
+**Note:** This version has been customized and adapted to meet specific requirements and personal preferences.
+
 ## Local Development
 
 ```bash
