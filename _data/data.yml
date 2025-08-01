@@ -46,7 +46,7 @@ sidebar:
         organization: 爱荷华大学
         time: 2021
 
-      - title: Henry and Parker Pelzer奖学金 (2次获年度作曲家)
+      - title: Henry and Parker Pelzer奖学金 (2获年度作曲家)
         organization: 爱荷华大学
         time: 2017 & 2019
 
@@ -242,18 +242,17 @@ skills:
   - name: 深度学习 (PyTorch, TensorFlow)
     level: 85%
 
-  - name: 数据分析 (Pandas, NumPy)
+  - name: 数据分析 (Pandas, NumPy, Scikit-learn)
     level: 85%
+
+  - name: C#/.NET & Azure
+    level: 75%
 
   - name: CI/CD &amp; DevOps
     level: 80%
 
-  - name: 医学影像处理 (ITK, OpenCV)
-    level: 80%
-    
-  - name: C#/.NET & Azure
+  - name: 云计算 (Azure, AWS)
     level: 75%
-
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
