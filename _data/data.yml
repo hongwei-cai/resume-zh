@@ -10,7 +10,7 @@ sidebar:
   # Profile information
   name: 蔡宏威
   tagline: 全栈开发者
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: h.vincent.cai@gmail.com
@@ -128,10 +128,10 @@ experiences:
       company: Casey's Store Support Center, 美国
       details: |
         - 独立完成商务整合平台12个应用程序的.NET 8升级项目
-        - 熟练运用Agile开发方法论，积极参与Scrum会议和软件开发生命周期
         - 使用Postman进行REST API端到端测试，通过ServiceNow管理IT工单
         - 参与网络安全团队的渗透测试和数据防泄漏（DLP）技术实践
-        - 接触数据驱动决策机制与企业级数据战略
+        - 初探数据驱动决策机制与企业级数据战略
+        - 熟练运用Agile开发方法论，积极参与Scrum会议和软件开发生命周期
 
     - role: 研究生助教
       time: 2023.01 - 2025.05
@@ -140,7 +140,7 @@ experiences:
         - 协助教授人工智能、数据结构、编程语言原理等核心课程
         - 指导学生掌握Java、C、Python、Haskell等编程语言
         - 负责作业批改、答疑辅导和实验课教学
-        - 协助课程优化，提升教学质量
+        - 协助优化课程结构，改进教学效率和质量
 
 # certifications:
 #   title: Certifications
