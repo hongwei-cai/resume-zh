@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: 蔡宏威
-  tagline: 全栈开发者
+  tagline: 机器学习工程师
   avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -236,22 +236,17 @@ recommendations:
 skills:
   title: 技能专长
   toolset:
-  - name: Python &amp; 机器学习
+
+  - name: 机器学习 (PyTorch, Scikit-learn, TensorFlow, Keras)
+    level: 85%
+
+  - name: 数据分析 (Pandas, NumPy, MatPlotLib, Seaborn)
     level: 90%
 
-  - name: 深度学习 (PyTorch, TensorFlow)
-    level: 85%
-
-  - name: 数据分析 (Pandas, NumPy, Scikit-learn)
-    level: 85%
-
-  - name: C#/.NET & Azure
-    level: 75%
-
-  - name: CI/CD &amp; DevOps
+  - name: 软件开发 (C#/.NET, Python)
     level: 80%
 
-  - name: 云计算 (Azure, AWS)
+  - name: 云计算 &amp; DevOps (Azure, AWS, CI/CD)
     level: 75%
 
 footer: >
