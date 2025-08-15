@@ -6,7 +6,7 @@ url: 'https://github.com/hongwei-cai/cv-zh/'
 
 #change it according to your repository name
 # disabling since we are using a custom domain
-baseurl: '/cv-zh'
+# baseurl: '/cv-zh'
 
 # description: A beautiful Jekyll theme for creating resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
@@ -32,5 +32,5 @@ compress_html: # - http://jch.penibelst.de/
 
 # Development Settings
 port: 4000
-host: localhost # 0.0.0.0
+host: 0.0.0.0 # localhost
 safe: false

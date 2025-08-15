@@ -1,7 +1,14 @@
 function print() {
-  const baseUrl = window.siteBaseUrl || "";
-  const printWindow = window.open(baseUrl + "/print", "_blank");
+  const printWindow = window.open("/print", "_blank");
   printWindow.onload = function () {
+    // Get name from the DOM (as defined in data.yml)
+    const name = document.querySelector(".name").textContent;
+    // Format filename: replace spaces with underscores and append _CV
+    const filename = `${name.replace(/\s+/g, "_")}_CV`;
+
+    // Set the document title in the print window
+    printWindow.document.title = filename;
+
     printWindow.print();
     // Close the print window after a delay
     setTimeout(() => printWindow.close(), 500);
@@ -9,9 +16,8 @@ function print() {
 }
 
 function generatePDF() {
-  const baseUrl = window.siteBaseUrl || "";
   // Get the print layout URL
-  const printURL = window.location.origin + baseUrl + "/print";
+  const printURL = new URL("print", window.location.href).href;
 
   // Fetch the print layout content
   fetch(printURL)
